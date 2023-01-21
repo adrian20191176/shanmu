@@ -1,0 +1,257 @@
+@import "../../styles/variables.scss";
+//Styles realted to Landing page goes here....
+
+.Landing {
+  z-index: 100;
+  font-family: sans-serif;
+  background: $Light;
+  color: $Dark;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow:hidden;
+}
+
+.IconTabs {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin: 0%;
+  padding: 0%;
+}
+
+.IconTabs p {
+  margin-bottom: 0%;
+}
+
+.react-tabs {
+  display: flex;
+  height: 100%;
+  color: $Dark;
+  background: $Light;
+  align-self: center;
+}
+
+.react-tabs__tab-list {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  margin: 0;
+  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.12);
+  padding: 0;
+  color: $Dark;
+  background: $Light;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.react-tabs__tab {
+  min-height: 50px;
+  list-style: none;
+  padding: 12px 6px;
+  cursor: pointer;
+  color: $Dark;
+  align-items: baseline;
+}
+
+.react-tabs__tab--selected {
+  background: $Border !important;
+  border-left: 4px solid $Primary;
+  color: $Dark !important;
+  outline: none;
+}
+
+.react-tabs__tab-panel {
+  display: none;
+  margin: 10px 40px 10px 0px;
+  padding-bottom: 4rem;
+}
+
+.react-tabs__tab-panel--selected {
+  display: block;
+  width: 100%;
+}
+
+.react-tabs__tab {
+  padding-left: 24px;
+  align-content: center;
+}
+
+.react-tabs__tab--selected {
+  padding-left: 21px;
+}
+
+.panel-content-header {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  margin: 20px 0px;
+  padding: 0px;
+}
+
+.panel-content-header h4 {
+  margin-right: auto;
+  margin-bottom: 0%;
+}
+
+.panel-content-header .Ask-question-btn {
+  padding: 6px 8px;
+}
+
+.TabList {
+  display: flex;
+  flex: 1;
+}
+
+.TabPanel {
+  display: flex;
+  flex: 4;
+  margin-left: 2rem;
+  overflow-y: scroll;
+}
+
+.Medium-Body-sub-text-2 {
+  padding-bottom: 4vh;
+}
+
+/* overding react-tabs style */
+
+.react-tabs__tab--selected {
+  background-color: #dedde2 !important;
+  color: #000 !important;
+}
+
+/*---   scroll bar syles   ---*/
+
+//width
+::-webkit-scrollbar {
+  width: 8px;
+  scroll-behavior: smooth;
+}
+
+//Track
+::-webkit-scrollbar-track {
+  background-color: $Component-bg;
+  border-radius: 10px;
+}
+
+// Handle
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background: $Gray;
+}
+
+.TabPanel::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background: rgb(211, 211, 211);
+  scroll-behavior: smooth;
+}
+
+
+.bg-custom-black {
+  background-color: $Dark-Shade !important;
+}
+
+.img-dark-mode {
+  filter:invert(1)
+}
+
+.unable-to-load {
+  text-align: center;
+  font-size: 24px;
+  position: relative;
+  top: 300px;
+}
+
+.reached-end {
+  text-align: center;
+  font-size: 24px;
+  margin-block: 25px;
+}
+
+/*---   scroll bar syles ends here ---*/
+
+/*------------------------- Responsive styles -------------------------*/
+
+/*mobile */
+
+@media screen and (max-width: 700px) {
+
+  /*lower than width: 700px; */
+  .react-tabs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*.react-tabs__tab-list {
+    display:none;
+  }*/
+  .TabList {
+    max-height: 80px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+
+  .react-tabs__tab-list {
+    flex-direction: row;
+    width: auto;
+    height: 88px;
+    -ms-overflow-style: none;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .react-tabs__tab-list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .TabPanel::-webkit-scrollbar {
+    display: none;
+  }
+
+  .react-tabs__tab {
+    max-height: 20px;
+    min-width: 150px;
+    align-self: center;
+    justify-content: center;
+    padding-left: 0%;
+    border-radius: 6px;
+    background-color: $Component-bg;
+    margin: 1rem 8px 1rem 8px;
+  }
+
+  .react-tabs__tab-panel {
+    margin-right: 10px;
+  }
+
+  .TabPanel {
+    margin-left: 16px !important;
+  }
+
+  .react-tabs__tab--selected {
+    border: 0px;
+    background-color: #d8d2f8;
+    min-width: 150px;
+  }
+
+  .panel-content-header {
+    margin-top: 0%;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .IconTabs {
+    justify-content: center;
+    margin-left: 0%;
+  }
+
+  .mobile-tabs-darkMode {
+    border: 1px solid $Accent-light !important;
+  }
+}
+
+/* large screens */
+
+@media screen and (min-width: 992px) {
+  /*higher than width: 992px; */
+}

@@ -1,0 +1,73 @@
+@import "../../styles/overrides.scss";
+@import "../../styles/variables.scss";
+
+.Content-header {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  margin: 20px 0px;
+  padding: 0px 8px;
+}
+
+.Content-header .btn:hover {
+  background-color: $Component-bg;
+}
+
+.Medium-H4 {
+  margin-bottom: 0%;
+}
+
+.Back-btn {
+  color: $Dark;
+  padding: 0%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.LoginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.LoginImage {
+  width: 24vh;
+}
+
+.LoginForm .form-control {
+  min-width: 48vh;
+}
+
+Modal {
+  min-width: 6rem;
+}
+
+.SignIn-Error-Modal{
+  margin: 2rem;
+}
+
+/*------------------------- Responsive styles -------------------------*/
+
+/*mobile */
+
+//max 700px
+@media screen and (max-width: 700px) {
+  .LoginForm .form-control {
+    min-width: 38vh;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .secondary-input {
+    flex-direction: column;
+  }
+
+  .gap-4 {
+    gap: 0.5rem !important;
+  }
+}

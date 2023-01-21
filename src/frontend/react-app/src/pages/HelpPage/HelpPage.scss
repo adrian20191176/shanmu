@@ -1,0 +1,39 @@
+@import "../../styles/overrides.scss";
+@import "../../styles/variables.scss";
+
+.Content-header {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  margin: 0px 0px 40px 0px;
+  padding: 0px 8px;
+  padding-top: 20px;
+}
+
+.Content-header .btn:hover {
+  background-color: $Component-bg;
+}
+
+.Medium-H4 {
+  margin-bottom: 0%;
+}
+
+.Back-btn {
+  color: $Dark;
+  padding: 0%;
+}
+
+.HelpBody {
+  margin-top: 4vh;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+  
+.bg-custom-black {
+  background-color: $Dark-Shade !important;
+}
+
+.bg-custom-black svg{
+  color: $Light;
+}

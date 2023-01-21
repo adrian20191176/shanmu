@@ -1,0 +1,157 @@
+@import "../../styles/variables.scss";
+//Styles realted to Navbar goes here....
+
+.Navigation {
+  margin-top: 0% !important;
+  z-index: 1000;
+  width: 100%;
+  background-color: $Component-bg;
+}
+
+.navbar .container-fluid h4 {
+  margin-bottom: 0%;
+}
+
+.navbar .container-fluid h4 {
+  color: $Primary;
+}
+
+.navbar-brand img {
+  max-width: 74px;
+  align-self: center;
+}
+
+.navbar-brand {
+  align-items: center;
+  align-content: center;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+.input-search {
+  width: 380px;
+}
+
+.navbar .btn:hover {
+  background-color: $Primary-hover;
+}
+
+.btn-primary {
+  background-color: $Primary;
+  border: $Primary;
+  cursor: pointer;
+}
+
+.top-border {
+  border-top: none;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.navbar .navbar-toggler {
+  color: $Primary;
+}
+
+.navbar-nav .nav-link {
+  color: $Dark;
+}
+
+.nav-link:hover {
+  color: $Gray;
+}
+
+.nav-link:focus {
+  color: $Primary;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: $Primary;
+}
+
+.nav-item Link :active {
+  color: $Primary;
+}
+
+.ProfileImage-LargeScreens {
+  width: 24px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.ProfileImage-SmallScreens {
+  width: 24px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.profile-image-nav {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+/*------------------------- Responsive styles -------------------------*/
+
+/*mobile */
+
+@media screen and (max-width: 700px) {
+  .input-search {
+    /*lower than width: 700px; */
+    width: 100%;
+  }
+
+  .top-border {
+    border-top: 2px solid #dedde2;
+  }
+
+  .navbar-nav {
+    align-items: inherit;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .navbar-nav li {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  .navbar-nav .nav-item > .nav-link {
+    font-size: 24px;
+  }
+
+  .Link-List {
+    padding-top: 12px;
+  }
+
+  .ProfileImage-SmallScreens {
+    display: none !important;
+  }
+
+  .ProfileImage-LargeScreens {
+    display: block !important;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+/* large screens */
+
+@media screen and (min-width: 992px) {
+  .input-search {
+    /*higher than width: 992px; */
+    margin-left: 80px;
+  }
+
+  .ProfileImage-SmallScreens {
+    display: block !important;
+  }
+
+  .ProfileImage-LargeScreens {
+    display: none !important;
+  }
+}

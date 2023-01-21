@@ -1,0 +1,13 @@
+@import "../../styles/overrides.scss";
+
+.grey-bg {
+  background-color: $Light-Gray;
+}
+
+Modal {
+  min-width: 6rem;
+}
+
+.Error-Modal {
+  margin: 2rem;
+}

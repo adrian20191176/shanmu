@@ -1,0 +1,49 @@
+@import "../../styles/overrides.scss";
+@import "../../styles/variables.scss";
+
+.Content-header {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  margin: 20px 0px;
+  padding: 0px 8px;
+}
+
+.Content-header .btn:hover {
+  background-color: $Component-bg;
+}
+
+.Medium-H4 {
+  margin-bottom: 0%;
+}
+
+.Back-btn {
+  color: $Dark;
+  padding: 0%;
+}
+
+.SignUpForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SignUpImage {
+  width: 30vh;
+}
+
+.SignUpForm .form-control {
+  min-width: 48vh;
+}
+
+/*------------------------- Responsive styles -------------------------*/
+
+/*mobile */
+
+//max 700px
+@media screen and (max-width: 700px) {
+  .SignUpForm .form-control {
+    min-width: 38vh;
+  }
+}

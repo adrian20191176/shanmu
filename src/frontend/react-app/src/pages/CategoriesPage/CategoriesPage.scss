@@ -1,0 +1,89 @@
+@import "../../styles/overrides.scss";
+@import "../../styles/variables.scss";
+
+.Content-header {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    margin: 20px 0px;
+    padding: 0px 8px;
+  }
+  
+  .Content-header .btn:hover {
+    background-color: $Component-bg;
+  }
+  
+  .Medium-H4 {
+    margin-bottom: 0%;
+  }
+  
+  .Back-btn {
+    color: $Dark;
+    padding: 0%;
+  }
+
+  .CategoriesContent {
+    margin-left: 12px;
+    margin-top: 8vh;
+  }
+
+  .CategoryTag {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    background-color: $Component-bg;
+    max-width: fit-content;
+    padding: 4px 6px;
+    border: 1px solid $Accent-light;
+    border-radius: 4px;
+  }
+
+  .CategoryCard {
+    max-width: 320px;
+    max-height: 240px;
+    overflow: hidden;
+    background-color: $Light;
+    border: 1px solid $Border;
+    border-radius: 4px;
+    padding: 12px;
+    margin-right: auto;
+  }
+
+  .CategoryDescription {
+    margin-top: 12px;
+  }
+
+  .CardRow {
+    margin-bottom: 6vh;
+    display: flex;
+  }
+  
+  .bg-custom-black {
+    background-color: $Dark-Shade !important;
+  }
+
+  .img-dark-mode {
+    filter:invert(1)
+  }
+
+
+  /*------------------------- Responsive styles -------------------------*/
+
+/*mobile */
+
+@media screen and (max-width: 700px) {
+  .CardRow {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .CategoriesContent {
+    margin-top: 4vh;
+  }
+
+  .CategoryCard {
+    margin-bottom: 20px;
+  }
+}

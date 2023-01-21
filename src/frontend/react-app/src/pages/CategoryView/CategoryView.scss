@@ -1,0 +1,39 @@
+@import "../../styles/overrides.scss";
+@import "../../styles/variables.scss";
+
+.CategoryContent {
+    margin-left: 12px;
+    margin-top: 8vh;
+}
+
+.Description {
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
+
+.SubCategories {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.bg-custom-black {
+  background-color: $Dark-Shade !important;
+}
+
+.img-dark-mode {
+  filter:invert(1)
+}
+
+
+  /*------------------------- Responsive styles -------------------------*/
+
+/*mobile */
+
+@media screen and (max-width: 700px) {
+    .CategoryContent {
+        margin-top: 4vh;
+    }
+}

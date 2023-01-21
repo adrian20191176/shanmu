@@ -1,0 +1,14 @@
+@import "../../../styles/variables.scss";
+
+.profile-image-report-user-view {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+
+
+.bg-custom-black {
+  background-color: $Dark-Shade !important;
+}
+

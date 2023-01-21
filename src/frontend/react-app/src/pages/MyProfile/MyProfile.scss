@@ -1,0 +1,251 @@
+@import "../../styles/overrides.scss";
+@import "../../styles/variables.scss";
+
+/*------------------Header styles----------------*/
+
+.Content-header {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  margin: 20px 0px;
+  padding: 0px 8px;
+}
+
+.Content-header-heading {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  margin: 20px 0px;
+  padding: 0px 8px;
+}
+
+.Top-header-BtnGroup {
+  display: flex;
+  align-items: center;
+}
+
+#theme-switch {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+#theme-switch p {
+  margin-right: 0.4rem;
+  margin-left: 0.4rem;
+}
+
+.Top-header-BtnGroup .Ask-question-btn {
+  padding: 6px 8px;
+  height: fit-content;
+}
+
+.Top-header {
+  display: flex;
+  margin-bottom: 4vh;
+}
+
+.Content-header .btn:hover {
+  background-color: $Component-bg;
+}
+
+.Medium-H4 {
+  margin-bottom: 0%;
+}
+
+.Back-btn {
+  color: $Dark;
+  padding: 0%;
+}
+
+.purple-bg {
+  background-color: $Primary;
+}
+
+.bg-custom-black {
+  background-color: $Dark-Shade;
+}
+
+/*-----------------Body Styles----------------*/
+
+.Image-section img {
+  width: 150px;
+  height: 120px;
+  border-radius: 6px;
+  margin-left: 12px;
+  margin-right: 24px;
+  object-fit: cover;
+}
+
+.Profile-details {
+  display: flex;
+  gap: 12px;
+}
+
+.User-details .Regular-Body-sub-text-2 {
+  color: $Gray;
+}
+
+.User-activities {
+  margin-top: 1rem;
+}
+
+.Regular-Tag-1 {
+  color: $Gray;
+}
+
+.User-interests {
+  margin-top: 1rem;
+}
+
+.User-interests-mobile-view {
+  margin-top: 1rem;
+  margin-left: 12px;
+  display: none;
+}
+
+.User-description {
+  margin-top: 4vh;
+  margin-left: 12px;
+}
+
+.Edit-profile-btn {
+  margin-left: 12px;
+  margin-top: 12vh;
+  border-color: $Primary;
+  color: $Primary;
+}
+
+.Edit-profile-btn:hover {
+  background-color: $Primary-hover;
+  border-color: $Primary-hover;
+}
+
+.LogOut-btn {
+  margin-left: 12px;
+  margin-top: 12vh;
+  border: $Primary;
+}
+
+.Report-user-btn {
+  margin-left: 12px;
+  margin-top: 12vh;
+  color: $Gray;
+}
+
+.Block-user-btn {
+  margin-left: 12px;
+  margin-top: 12vh;
+}
+
+.Block-user-btn:hover {
+  background-color: $Error;
+}
+
+.Report-user-btn:hover {
+  color: $Error;
+  background-color: $Component-bg;
+}
+
+.ButtonGroup-bottom {
+  display: flex;
+}
+
+.ButtonGroup-bottom .LogOut-btn {
+  display: none;
+}
+
+/*------------------------- Responsive styles -------------------------*/
+
+/*mobile */
+
+/*lower than width: 700px; */
+@media screen and (max-width: 500px) {
+  #theme-switch {
+    margin-left: auto;
+    margin-right: 0%;
+  }
+
+  .Back-btn {
+    margin-right: 0.5rem;
+  }
+
+  .Content-header .Medium-H4 {
+    font-size: 20px;
+  }
+
+  .Top-header-BtnGroup {
+    margin-left: 0px;
+    display: flex;
+  }
+
+  .Top-header-BtnGroup button {
+    margin-left: auto;
+  }
+
+  .Top-header-BtnGroup .Top-LogOut-btn {
+    display: none;
+  }
+
+  .ButtonGroup-bottom .LogOut-btn {
+    display: block;
+  }
+
+  .User-interests-mobile-view {
+    display: block;
+    margin-top: 24px;
+  }
+
+  .User-interests-mobile-view *{
+    text-align: center;
+  }
+
+  .User-interests-mobile-view .Regular-Tag-1{
+    text-align: center;
+  }
+
+  .User-interests {
+    display: none;
+  }
+
+  .User-details {
+    padding-left: 12px;
+  }
+
+  .User-details *{
+    text-align: center !important;
+    align-items: center !important;
+  }
+
+  .User-details h4 {
+    font-size: 18px !important;
+  }
+
+  .Image-section {
+    margin-bottom: 12px !important;
+  }
+
+  .Image-section img {
+    width: 100px;
+    margin-right: 12px;
+  }
+
+  .User-description {
+    margin-top: 2vh;
+    text-align: center !important;
+  }
+
+  .Top-header {
+    margin-bottom: 2vh;
+  }
+
+  .Profile-details {
+    align-items: center;
+  }
+
+  .ButtonGroup-bottom {
+    justify-content: center;
+  }
+}

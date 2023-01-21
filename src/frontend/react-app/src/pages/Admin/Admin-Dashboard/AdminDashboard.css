@@ -1,0 +1,6 @@
+@import url(../../../styles/overrides.scss);
+@import url(../../../styles/variables.scss);
+.Switch-role {
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=AdminDashboard.css.map */

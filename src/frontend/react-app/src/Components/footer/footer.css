@@ -1,0 +1,263 @@
+@import "../../styles/overrides.css"; /*------   Colors   ------*/
+/*------   Typography   ------*/
+/*---Regular styles---*/
+.Regular-H1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Regular-H2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Regular-H3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Regular-H4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Regular-Title {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Regular-SubTitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Regular-Body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Regular-Body-sub-text-1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Regular-Body-sub-text-2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Regular-Tag-1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Regular-Tag-2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/*---Medium styles---*/
+.Medium-H1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Medium-H2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 29px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Medium-H3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Medium-H4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Medium-Title {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Medium-SubTitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Medium-Body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Medium-Body-sub-text-1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Medium-Body-sub-text-2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Medium-Tag-1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Medium-Tag-2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+footer .Footer {
+  margin: 0%;
+  padding: 0%;
+  background-color: #f0eff4;
+  display: flex;
+  align-items: baseline;
+}
+
+footer img {
+  width: 60px;
+}
+
+.Footer-links ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.Branding {
+  display: flex;
+  margin-right: auto;
+}
+
+.Branding .navbar-brand h5 {
+  padding-bottom: 0%;
+}
+
+.Branding h5 {
+  margin-bottom: 0%;
+  color: #6159e4;
+}
+
+.Branding p {
+  margin-bottom: none;
+}
+
+/*------------------------- Responsive styles -------------------------*/
+/*mobile */
+@media screen and (max-width: 700px) {
+  /*lower than width: 700px; */
+  .navbar-nav .nav-link {
+    font-size: 13px;
+  }
+  .Footer-links ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .Footer {
+    font-size: 10px;
+    gap: 1rem;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+  }
+  .Branding {
+    display: flex;
+    flex-direction: column;
+    max-width: 11rem;
+  }
+  .Branding p {
+    margin-left: 18px;
+  }
+}/*# sourceMappingURL=footer.css.map */

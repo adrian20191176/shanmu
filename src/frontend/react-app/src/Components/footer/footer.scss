@@ -1,0 +1,84 @@
+@import "../../styles/overrides.css";
+@import "../../styles/variables.scss";
+//Styles realted to Footer goes here....
+
+footer .Footer {
+  margin: 0%;
+  padding: 0%;
+  background-color: $Component-bg;
+  display: flex;
+  align-items: baseline;
+}
+
+footer img {
+  width: 60px;
+}
+
+.Footer-links ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.Branding {
+  display: flex;
+  margin-right: auto;
+}
+
+.Branding .navbar-brand h5{
+  padding-bottom: 0%;
+}
+
+.Branding h5 {
+  margin-bottom: 0%;
+  color: $Primary;
+}
+
+.Branding p {
+  margin-bottom: none;
+}
+
+.footer-dark {
+  border-top: 1px solid $Border;
+}
+
+.footer-links-dark .nav-item > .nav-link {
+  color: $Light !important;
+}
+
+/*------------------------- Responsive styles -------------------------*/
+
+/*mobile */
+
+@media screen and (max-width: 700px) {
+  /*lower than width: 700px; */
+
+  .navbar-nav .nav-item > .nav-link {
+    font-size: 14px !important;
+}
+
+.Footer-links ul *{
+  margin: 0% !important;
+  text-align: left;
+}
+
+  .Footer-links ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Footer {
+    font-size: 13px;
+    gap: 1rem;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+  }
+
+  .Branding {
+    display: flex;
+    flex-direction: column;
+    max-width: 11rem;
+  }
+  .Branding p {
+    margin-left: 18px;
+  }
+}

@@ -1,0 +1,79 @@
+@import "../../styles/overrides.scss";
+@import "../../styles/variables.scss";
+
+.react-switch-checkbox {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.react-switch-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 48px;
+  height: 23px;
+  background: $Light;
+  outline: 1.4px solid $Dark;
+  border-radius: 100px;
+  position: relative;
+  transition: background-color 0.1s;
+}
+
+.react-switch-label .react-switch-button {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 18px;
+  height: 18px;
+  border-radius: 45px;
+  transition: 0.2s;
+  background: $Accent-dark;
+  box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
+}
+
+.react-switch-checkbox:checked + .react-switch-label .react-switch-button {
+  left: calc(96% - 2px);
+  transform: translateX(-96%);
+}
+
+.react-switch-label:active .react-switch-button {
+  width: 30px;
+}
+
+.react-switch-label:active .react-switch-label {
+  background: $Success;
+}
+
+
+/*------------------------- Responsive styles -------------------------*/
+
+/*mobile */
+
+/*lower than width: 700px; */
+@media screen and (max-width: 700px) {
+  
+  .react-switch-label {
+    width: 44px;
+    height: 22px;
+    outline: 1.2px solid $Dark;
+    border-radius: 100px;
+  }
+  
+  .react-switch-label .react-switch-button {
+    content: "";
+    width: 18px;
+    height: 18px;
+  }
+  
+  .react-switch-checkbox:checked + .react-switch-label .react-switch-button {
+    left: calc(96% - 2px);
+    transform: translateX(-96%);
+  }
+  
+  .react-switch-label:active .react-switch-button {
+    width: 30px;
+  }
+}

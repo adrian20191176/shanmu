@@ -1,0 +1,10 @@
+@import "../../styles/variables.scss";
+@import "../../styles/overrides.scss";
+
+.btn-light:hover {
+  background-color: $Accent-Hover;
+}
+
+.border {
+  border-color: $Accent-light !important;
+}

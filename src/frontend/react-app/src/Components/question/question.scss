@@ -1,0 +1,53 @@
+@import "../../styles/variables.scss";
+@import "../../styles/overrides.scss";
+
+.Report-Btn {
+  color: $Dark;
+}
+
+.Link-Dark {
+  color: $Dark;
+}
+
+p {
+  margin-bottom: 0%;
+}
+
+.btn-transparent:hover {
+  background-color: $Accent-Hover;
+}
+
+.answer-input {
+  height: 6rem;
+}
+
+.post-answer-btn {
+  color: $Primary;
+  border-color: $Primary;
+  border-radius: 10px;
+}
+
+.modal-custom {
+  margin: 2rem;
+  font-size: 16px;
+}
+
+.bg-custom-black {
+  background-color: $Dark-Shade;
+}
+
+.img-dark-mode {
+  filter:invert(1)
+}
+
+.Error-Modal {
+  margin: 2rem;
+}
+
+.Question-component {
+  border-bottom: 1px solid $Gray !important;
+}
+
+.delete-question {
+  color: $Error !important;
+}

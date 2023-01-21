@@ -1,0 +1,17 @@
+@import '../../styles//overrides.scss';
+
+.AboutContent {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
+}
+
+.AboutContent h6 {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.bg-custom-black {
+  background-color: $Dark-Shade !important;
+}

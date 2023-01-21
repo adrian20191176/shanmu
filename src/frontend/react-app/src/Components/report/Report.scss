@@ -1,0 +1,22 @@
+@import "../../styles/overrides.scss";
+@import "../../styles/variables.scss";
+
+.Submit {
+  margin-top: 4vh;
+  background-color: $Primary;
+  color: $Light;
+}
+
+.Submit:hover {
+  background-color: $Primary-hover;
+  color: $Light;
+}
+
+.ReportReason {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.ErrorModal {
+  padding: 2rem;
+}

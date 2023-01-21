@@ -1,0 +1,26 @@
+@import "../../styles/variables.scss";
+@import "../../styles/overrides.scss";
+
+.Answer-Body {
+    // background-color: $Extra-light;
+}
+
+.Link-Dark {
+  color: $Dark;
+}
+
+.btn-transparent:hover {
+  background-color: $Accent-Hover;
+}
+
+.comment-view-container {
+    margin-left: 4rem;
+}
+
+Modal {
+  min-width: 6rem;
+}
+
+.Error-Modal{
+  margin: 2rem;
+}
