@@ -11,7 +11,7 @@ corsIssue.use((req,res,next) => {
 
 corsIssue.use(
   cors({
-    origin: 'http://localhost:3000',  
+    origin: 'https://selfed-frontend-v0.onrender.com',  
     credentials: true
   })
 )
